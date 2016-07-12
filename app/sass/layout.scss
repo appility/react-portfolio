@@ -1,0 +1,81 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Global Styles */
+
+a, button {
+	-webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;	
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+.label {
+	text-transform: uppercase;
+	margin-right: 3px;
+}
+
+/* Project */
+
+.project-description {
+	min-height: 150px;
+	@media #{$medium-up} {
+		min-height: 110px;
+	}
+}
+.label-group {
+	min-height: 50px;
+}
+
+/* Project Slideshow */
+
+.project-slideshow {
+	.project-slideshow-nav {
+		label {
+			display: block;
+		    width: 200px;
+		    height: 100%;
+		    display: none;
+		    position: absolute;
+		    opacity: 0;
+		    z-index: 9;
+		    cursor: pointer;
+		    transition: opacity .2s;
+		    color: #FFF;
+		    font-size: 156pt;
+		    text-align: center;
+		}
+	}
+}
+
+.project {
+	.image-wrapper {
+		min-height: 150px;
+		text-align: center;
+		@media #{$medium-up} {
+			min-height: 400px;
+		}
+		@media #{$large-up} {
+			min-height: 400px;
+		}
+	}
+}
+
+/* Image Fade-in */
+
+.image { opacity: 0; transition: opacity 0.3s; }
+.image-loaded { opacity: 1; }
+

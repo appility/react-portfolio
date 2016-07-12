@@ -1,0 +1,100 @@
+[
+{
+	"title": "Direct Line Group",
+	"description": "Building SEO-friendly, Reponsive User Interfaces to exacting designs,<br\/ class=\"show-for-medium\"> working in an muli-disciplinary agile team.",
+	"links": [
+				{
+					"text":"Nomination - Digital Team of the Year - Direct Line Magazine.",
+					"url":"http://events.v3.co.uk/digitalleadersawards/static/the-shortlist?utm_medium=email&utm_campaign=Digital%20Leaders%20Awards_Shortlist%20is%20out&utm_source=V3%20Awards"
+				}
+	],
+	"tags": ["HTML5", "SASS", "JavaScript", "Responsive Web Design", "Grunt", "Gulp", "Jenkins"],
+	"imageRoot": "showcase_DL_1"
+},
+{
+	"title": "Hearst Magazines",
+	"description": "Building Reponsive User Interfaces across multiple sites. <br\/ class=\"show-for-medium\"> Ads library (Ensighten, DFP, MediaNet, Sonobi) integration work.",
+	"links": [
+				{
+					"text":"Visit www.menshealth.co.uk",
+					"url":"http://www.menshealth.co.uk/"
+				}
+	],
+	"tags": ["HTML", "CSS", "JavaScript", "Git", "Expression Engine"],
+	"imageRoot": "showcase_HEARST_1"
+},
+
+{
+	"title": "GDS - Home Office Project",
+	"description": "Front-end development of an internal web app for use at UK airports . <br\/ class=\"show-for-medium\">Working in an Agile team, under the auspices of the Government Digital Service.",
+	"links": [
+				{
+					"text":"Government Service Design Manual",
+					"url":"https://www.gov.uk/service-manual/designers"
+				}
+	],
+	"tags": ["HTML5", "JavaScript", "SASS", "Accessibility", "Responsive Design", "Backbone", "Require", "Grunt", "Symfony", "Composer", "Vagrant"],
+
+	"imageRoot": "showcase_HO_1"
+},
+{
+	"title": "Coutts",
+	"description": "Complete build of fully responsive site.",
+	"tags": ["HTML5", "JavaScript", "SASS", "Responsive Design", "Grunt"],
+	"links": [
+				{
+					"text":"Visit philanthropy.coutts.com",
+					"url":"http://philanthropy.coutts.com/"
+				}
+	],
+	"imageRoot": "showcase_COUTTS_1"
+},
+{
+	"title": "GDM Digital",
+	"description": "Complete build of fully responsive site.",
+	"links": [
+				{
+					"text":"Visit www.gdmdigital.com",
+					"url":"http://www.gdmdigital.com/"
+				}
+	],
+	"tags": ["HTML5", "JavaScript", "SASS", "Responsive Design", "Grunt"],
+	"imageRoot": "showcase_GDM_1"
+},
+{
+	"title": "Lastminute",
+	"description": "Front-end development of mobile-optimised, search and book path, built using Backbone.js and the Jasmine test framework, working in a Continous Integration environment.",
+	"links": [
+				{
+					"text":"Visit www.lastminute.com",
+					"url":"http://www.lastminute.com"
+				}
+	],
+	"tags": ["HTML5", "JavaScript", "SASS", "SPA", "Backbone", "Jasmine", "Continuous Integration", "Pair Programming"],
+	"imageRoot": "showcase_LM_1"
+},
+{
+	"title": "Morrisons",
+	"description": "Front-end development of mobile-optimised site, utilizing HTML5 APIs such as geolocation.",
+	"links": [
+		{
+			"text":"Visit m.morrisons.com",
+			"url":"http://m.morrisons.com/"
+		}
+	],
+	"tags": ["HTML5", "JavaScript", "SASS"],
+	"imageRoot": "showcase_MORRISONS_1"
+},
+{
+	"title": "Bussy London",
+	"description": "Single page web app built using Backbone.js, utilizing HTML5 APIs such as geolocation and local storage.",
+		"links": [
+		{
+			"text":"Visit Bussy London",
+			"url":"http://www.appility.co.uk/bussy/london"
+		}
+	],
+	"tags": ["HTML5", "JavaScript", "SASS", "Backbone"],
+	"imageRoot": "showcase_BUSSY_1"
+}
+]

@@ -1,0 +1,42 @@
+/* icons */
+
+@-webkit-keyframes fadeInRight {
+	0% {
+	   opacity: 0;
+	   
+	}
+	100% {
+	   opacity: 1;
+	   -webkit-transform: translateX(0);
+	}
+}
+
+.icon-peek {
+	span {
+		position: relative;
+		opacity: 0;
+		-webkit-transition: opacity .25s ease-in-out;
+		-moz-transition: opacity .25s ease-in-out;
+		-o-transition: opacity .25s ease-in-out;
+		transition: opacity .25s ease-in-out;
+
+		-webkit-transform: translateX(5px);
+		-webkit-transition: transform 1s ease-in;
+     	-moz-transition: transform 1s ease-in;
+       	-o-transition: transform 1s ease-in;
+        transition: opacity .25s ease-in-out, transform .25s ease-in;
+
+		
+		&:before {
+			position: absolute;
+			top: 0.2rem;
+			left: -1.2rem;
+		}
+	}
+	&:hover {
+		span {
+			opacity: 1;
+			-webkit-transform: translateX(0);
+        }
+	}
+}
